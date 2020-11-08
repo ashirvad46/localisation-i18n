@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <>
        <div style={{textAlign : 'center'}}>
-        <h3>{'Localisation'}</h3>
+        <h3>{'Localization'}</h3>
         { this.renderRadioButtonLayout() }
           <p>
             {t('introduction')}
